@@ -1,21 +1,20 @@
 export default {
-  close: 'Close',
+  info: {
+    iso: 'en',
+    iso_639_2_B: 'eng',
+    name: 'English',
+    native: 'English'
+  },
   dataIterator: {
-    itemsPerPageText: 'Items per page:',
-    itemsPerPageAll: 'All',
+    rowsPerPageText: 'Items per page:',
+    rowsPerPageAll: 'All',
     pageText: '{0}-{1} of {2}',
     noResultsText: 'No matching records found',
     nextPage: 'Next page',
-    prevPage: 'Previous page',
-    loadingText: 'Loading items...'
+    prevPage: 'Previous page'
   },
   dataTable: {
-    itemsPerPageText: 'Rows per page:',
-    ariaLabel: {
-      sortDescending: ': Sorted descending. Activate to remove sorting.',
-      sortAscending: ': Sorted ascending. Activate to sort descending.',
-      sortNone: ': Not sorted. Activate to sort ascending.'
-    }
+    rowsPerPageText: 'Rows per page:'
   },
   noDataText: 'No data available',
   carousel: {
